@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 74%);
+    font-family: "Poppins", sans-serif;
+}
+/* .clearfix{
+    clear: both;
+} */
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+}
+img {
+    width: auto;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 25%;
+  }
+.main{
+    /* height: 1150px; */
+    padding: 3rem;
+    width: 50rem;
+    background-color: white;
+    box-shadow: 5px 7px 15px  #b9b9b6;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+.header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+
+  }
+  .border{
+    border-left: 3px solid grey;
+    height: 200px;
+    position:absolute;
+    left: 40%;
+  }
+  
+  .header-left {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 100;
+    /* display: inline; */
+  }
+  h1{
+      margin: 0;
+      font-weight: 400;
+  }
+  h2{
+    margin: 0;
+    font-weight: 400;
+    display: inline;
+}
+
+
+.header-right {
+  width: 100%;
+  display: grid;
+  /* justify-items: end; */
+}
+
+.header-right p {
+  display: inline-block;
+}
+
+.icon {
+    color: rgb(241, 235, 235);
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    margin-left: 0.25rem;
+  }
+
+  .grey{
+      background: #655656;
+      color: rgb(241, 235, 235);
+  }
+
+  table {
+    border: 2px solid grey;
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 0.4rem;
+  }
+
+  /* .skill-progress{
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #655656;
+    position: relative;
+  
+  }
+  .list{
+      display: inline;
+  }
+
+  .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+  } */
+
+  .bar{
+      background: honeydew;
+      display: block;
+      height: 2px;
+      border: 1px rgba(0,0,0,0.3);
+      border-radius: 3px;
+      overflow: hidden;
+      /* box-shadow: 0 0 10px #655656; */
+  }
+
+  .bar span{
+      height: 2px;
+      float: left;
+      background: #655656;
+  }
+  .cpp{
+      width: 85%;
+      animation: progress 2s;
+  }
+  .c{
+    width: 60%;
+    animation: progress 2s;
+}
+.python{
+    width: 75%;
+    animation: progress 2s;
+}
+.ml{
+    width: 50%;
+    animation: progress 2s;
+}
+.cnn{
+    width: 80%;
+    animation: progress 2s;
+}
+.html{
+    width: 80%;
+    animation: progress 2s;
+}
+.css{
+    width: 80%;
+    animation: progress 2s;
+}
+.js{
+    width: 60%;
+    animation: progress 2s;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90;
+    }
+}
